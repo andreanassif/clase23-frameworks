@@ -48,10 +48,10 @@ module.exports.datastores = {
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
     ***************************************************************************/
-    adapter: 'sails-mysql',
-    url: 'mysql://root@127.0.0.1:3306/locos3dsailsdb',
     //adapter: 'sails-mysql',
-    //url: 'mongodb+srv://anassif:!tqQWZFf!dg6jy8@coderbackend.bphtew5.mongodb.net/?retryWrites=true&w=majority'
+    //url: 'mysql://root@127.0.0.1:3306/locos3dsailsdb',
+    adapter: 'sails-mongo',
+    url: 'mongodb+srv://anassif:!tqQWZFf!dg6jy8@coderbackend.bphtew5.mongodb.net/sailsdb?retryWrites=true&w=majority'
 
   },
 
